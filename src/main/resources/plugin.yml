@@ -1,9 +1,15 @@
-name: ChestRestock
-main: com.dumptruckman.chestrestock.ChestRestockPlugin
+name: Marshals
+main: citizensnips.marshals.MarshalsPlugin
 version: maven-version-number
-author: dumptruckman
+author: citizensnips
 
 commands:
-  cr:
-    description: Views/sets/changes the settings of the chest you are targetting.
+  marshal:
+    description: Base Marshal plugin command.
+    usage: /<command>
+  gag:
+    description: Gag command.
+    usage: /<command>
+  shackle:
+    description: Shackle command.
     usage: /<command>
